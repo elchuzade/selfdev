@@ -1,62 +1,164 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <link rel='shortcut icon' href='%PUBLIC_URL%/w-logo.png' />
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/w-logo.png" />
     <meta
-      name='viewport'
-      content='width=device-width, initial-scale=1, shrink-to-fit=no'
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name='theme-color' content='#000000' />
-    <link rel='manifest' href='%PUBLIC_URL%/manifest.json' />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link
-      rel='stylesheet'
-      href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-      integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
-      crossorigin='anonymous'
-    />
-    <link
-      rel='stylesheet'
-      href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'
-      integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr'
-      crossorigin='anonymous'
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
     <link
-      rel='stylesheet'
-      href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css'
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
     />
     <link
-      rel='stylesheet'
-      href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css'
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
     />
     <title>Book</title>
     <style>
-
+      .exercise-card {
+        border: 1px solid lightgrey;
+        border-radius: 20px;
+      }
+      .exercise-card-image {
+        border-radius: 10px;
+      }
     </style>
   </head>
   <body>
-    <div>
-      <div class='container'>
-        
-        <div class='row my-5'></div>
+    <div class='my-5'>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1>Biceps</h1>
+            <p class="lead">16 April 2020</p>
+          </div>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 exercise-card my-3">
+                <h4 class='my-3'>Standing Barbell Curl</h4>
+                <div class="row">
+                  <div class="col-4">
+                    <img
+                      src="https://picsum.photos/400/300?1"
+                      alt="exercise image"
+                      class="img-fluid exercise-card-image"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Weight (kg)</th>
+                          <th scope="col">Trials</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>10</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>15</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>20</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td>25</td>
+                          <td>7</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 exercise-card">
+                <h4 class='my-3'>Standing Dumbbell Hammer Curl</h4>
+                <div class="row">
+                  <div class="col-4 mb-3">
+                    <img
+                      src="https://picsum.photos/400/300?2"
+                      alt="exercise image"
+                      class="img-fluid exercise-card-image"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">Weight (kg)</th>
+                          <th scope="col">Trials</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>20</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>20</td>
+                          <td>20</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>20</td>
+                          <td>20</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5"></div>
       </div>
     </div>
     <!-- SCRIPTS -->
     <script
-      src='https://code.jquery.com/jquery-3.3.1.slim.min.js'
-      integrity='sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo'
-      crossorigin='anonymous'
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
     ></script>
     <script
-      src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
-      integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
-      crossorigin='anonymous'
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
     ></script>
     <script
-      src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
-      integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
-      crossorigin='anonymous'
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
     ></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
   </body>
 </html>
